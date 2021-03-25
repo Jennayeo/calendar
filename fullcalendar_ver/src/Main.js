@@ -6,7 +6,7 @@ import EditIcon from '@material-ui/icons/Edit';
 import {useState, useRef} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import {addCalendarFB, getCalendarFB, addCalendar, getCalendar} from "./redux/modules/calendar"
-import './Main.css';
+// import './Main.css';
 
 const Main = (props) => {
   const dispatch = useDispatch()
@@ -37,7 +37,7 @@ const Main = (props) => {
           <EditIcon />
           </Fab>
         </div>
-        <button onClick={() => {props.history.push('/modal')}}>modal</button>
+        {/* <button onClick={() => {props.history.push('/modal')}}>modal</button> */}
       </div>
 
     );
